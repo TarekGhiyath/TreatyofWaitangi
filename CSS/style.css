@@ -1,0 +1,59 @@
+#wrapper
+{display: grid; 
+    grid-template-areas:"Logo Header Header"
+                        "Nav Main Sidebar"
+                         "Footer Footer Footer";
+    grid-template-columns: 1fr 6fr 2fr;
+    
+}
+
+
+    
+  
+
+h1{text-align: center}
+h2{text-align: center}
+h2{color: burlywood}
+h1 {text-align : center}
+h1{color: burlywood}
+
+
+img{width: 600px}
+p{font-size: 20px}
+p{color: burlywood}s
+p{background-color: bisque}
+nav{font-size:30px}
+nav{background-color: bisque}
+nav{color: burlywood}
+
+#Logo {
+    grid-area: Logo;
+     background-color: antiquewhite;
+}
+#Main{
+    grid-area: Main;
+     background-color: antiquewhite;
+    {color: burlywood;}
+}
+#Nav{
+    grid-area: Nav;
+     background-color: antiquewhite;
+}   
+#Sidebar{
+    grid-area: Sidebar;
+     background-color: antiquewhite;
+    height: auto;
+}
+#Footer{
+    grid-area: Footer;
+     background-color: antiquewhite;
+}
+#Head{
+    grid-area: Header;
+    background-color: antiquewhite;
+    font-size: 60px;
+}
+div{border: 1px solid black;
+}
+img{width: auto}
+  
